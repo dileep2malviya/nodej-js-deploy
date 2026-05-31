@@ -8,6 +8,7 @@ app.get('/',(req, res) => {
     return res.json({msg: "hello from the server"})
 })
 
+
 app.listen(PORT, ()=> {
     console.log('running application on 8080 port')
 })
